@@ -1,0 +1,219 @@
+.modal-wrapper{
+    position: fixed;
+    left:  0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 9999;
+}
+input{
+    border:none;
+}
+.modal{
+    width: 730px;
+    height: 539px;
+    background: #FFFFFF;    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 30px;
+    text-align: center;
+}
+.modal__title{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130.8%;
+    color: #000000;
+    margin-top: 15px;
+}
+.modal__content{
+    display: flex;
+    margin-top: 8%;
+    margin-left: 0px;
+    text-align: left;
+    padding: 0 2%;
+}
+.modal__subtitle{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130.8%;
+    color: #000000; 
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.modal__text{
+    margin-left: 3%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #000000;
+}
+.bold__text{
+    font-weight: bold;
+}
+.yellow__text{
+    color: #FFC700;
+}
+.hide{
+    display: none;
+}
+/*-------------------modal------------------------order*/
+.offer-modal{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 730px;
+    height: 682px;
+    text-align: center;
+}
+.offer__title{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130.8%;
+    color: #000000;
+    margin-top: 5%;
+}
+.offer__subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #FFC700;
+    position: relative;
+    top: 4%;
+}
+.inputs{
+    margin-top: 10%;
+}
+.inputs input{ 
+   margin: 1%  auto;
+   width: 606px;
+   height: 63px;
+   background: #F3F3F3; 
+   border-radius: 10px;
+   font-size: 18px;
+}
+.inputs input:hover{
+    border: 3px solid #FFC700;
+}
+#input-id{
+   width:  463px;
+   margin:  1% 0;
+   margin-left: -3%;
+}
+.footer__title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130.8%;
+    color: #BEBEBE;
+    text-align: left;
+    margin-left: 8.3%;
+}
+.input__link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 130.8%;
+    text-decoration-line: underline;
+    color: #FFC700;
+}
+.modal-offer__btn{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 175.78%;
+    text-align: center;
+    color: #000000;
+    background: #FFC700;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;    
+    border-radius: 12px;
+    width: 181px;
+    height: 40px;
+    margin-top: 7%;
+}
+.modal-offer__btn:hover{
+    opacity: 50%;
+}
+
+/*=======second============modal===start*/
+.modal-offer-2{
+    width: 730px;
+    height: 749px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.modal-offer-2__inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.modal-offer-2__inputs input{
+    background: #F3F3F3;
+    border-radius: 10px;
+    width: 606px;
+    height: 63px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.modal-offer-2__subtitle{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #000000;
+    margin-top: 4%;
+}
+
+.options{
+    margin-top:  5%;
+}
+.options input{
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+.option__content{
+    display: flex;
+}
+.option__text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+    max-width: 100%;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.modal-offer-2__btn{
+    background: #FFC700;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+    border-radius: 12px;
+    width: 181px;
+    height: 40px;
+    margin-top: 10%;
+}

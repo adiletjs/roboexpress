@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.modal-wrapper{
+    background: url(../img/Rectangle\ 129.png) center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+a{
+    text-decoration: none;
+}
+.modal__reg{
+    width: 730px;
+    height: 572px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    position: absolute;
+    text-align: center;
+}
+.modal__title{
+    margin-top: 5%;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130.8%;
+    color: #000000;
+}
+.modal__subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 175.78%;
+    text-align: center;
+}
+.modal__links{
+    margin-top: 15px;
+}
+.modal__link{
+    padding: 0 5%;
+}
+.and{
+    display: block;
+    margin-top: 5%;
+   font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #000000;
+}
+.modal__btn{
+    width: 434px;
+    height: 79px;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+    border-radius: 12px;
+    background: #FFC700;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 175.78%;
+    text-align: center;
+    color: #000000;
+    margin-top: 5%;
+}
+.modal__sign-in{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #BEBEBE;
+    display: block;
+    margin-top: 12%;
+}
+.modal__aut{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #FFC700;
+}

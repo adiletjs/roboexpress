@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;900&family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/modal-windows.css">
+</head>
+<body>
+    <!--header---start-->
+    <div class="wrapper">
+         <header class="header">
+             <div class="header__logo">
+                 <img src="img/logo.svg" alt="">
+             </div>
+             <nav class="header__nav">
+                 <ul class="header__list">
+                       <li class="header__list_item">
+                         <a href="#" class="header__list_link"  id="about-us">
+                            О нас
+                         </a>
+                       </li>
+                       <li class="header__list_item">
+                        <a href="" class="header__list_link">
+                            Мы нанимаем
+                        </a>
+                      </li>
+                      <li class="header__list_item">
+                        <a href="" class="header__list_link">
+                            Партнерство
+                        </a>
+                      </li>
+                 </ul>
+              
+
+                 <div class="header__btns">
+                        <button class="header__btn"  id="sign-in">
+                            Вход в систему
+                        </button>
+                        <button class="header__btn" id="offer-btn">
+                            Заказать доставку
+                        </button>
+                </div>
+             </nav>
+             <!--modal--window-start-->
+             <div class="modal-wrapper hide">
+                 <div class="modal hide" id="offer">
+                     <a class="close-btn" href="#">&times;</a>
+                            <h3 class="modal__title">
+                                Заказать доставку
+                            </h3>
+                            <div class="modal__container">
+                                <div class="modal__content">
+                                    <h5 class="modal__subtitle">01</h5>
+                                    <p class="modal__text">
+                                        Если у вас уже есть аккаунт в <span class="bold__text">RoboExpress</span> , вам необходимо <a href="sign-in.html" class="yellow__text">авторизироваться </a> и перейти во вкладку <span class="bold__text">“мои заказы”</span> и выбрать опцию  <span class="bold__text">“новый заказ” </span>
+                                    </p>
+                            </div>
+                            <div class="modal__content">
+                                <h5 class="modal__subtitle">02</h5>
+                                <p class="modal__text">Если у вас нет аккаунта, вы можете <a href="reg.html" class="yellow__text">зарегистрироваться</a> и воспользоваться инструкциями из предыдущего пункта</p>
+                            </div>
+                            <div class="modal__content">
+                                <h5 class="modal__subtitle">03</h5>
+                              <p class="modal__text">
+                                Если вы не желаете создавать аккаунт, или у вас уже есть аккаунт, но вы не хотите использовать его, вы можете воспользоваться <a href="#" class="yellow__text" id="show-offer-modal">одноразовой формой заказа</a>
+                                </p>
+                            </div>
+                        
+                 </div>
+             </div>
+             </div>
+                          <!--modal--window-end-->
+                          <!--modal--order---start-->
+                         <div class="modal-wrapper hide ">
+                             <div class="offer-modal hide">
+                                    <h4 class="offer__title">Заказать доставку</h4>
+                                         <a class="offer__subtitle" href="">
+                                              Шаг 1 из 3
+                                         </a>
+                                        <div class="inputs">
+                                                <input  class="modal-offer__input"  placeholder="ID Товара*" id="input-id" type="text"> <a class="input__link" href="">Где взять ID?</a>
+                                                <input  class="modal-offer__input" placeholder="Фамилия*" type="text">
+                                                <input class="modal-offer__input"  placeholder="Имя*"  type="text">
+                                                <input class="modal-offer__input"  placeholder="Отчество*"  type="text">
+                                        </div>
+                                        <li class="footer__title">
+                                            Данные должны быть указаны строго в соответствии с документами
+                                        </li>
+                                        <button class="modal-offer__btn">
+                                            Далее
+                                        </button>
+                             </div>
+                         </div>
+
+                          <!--modal--order---end-->
+                          <!-----modal=======order======2===start-->
+                          <div class="modal-wrapper hide">
+                              <div class="modal-offer-2 hide ">
+                                    <h4 class="offer__title">
+                                        Заказать доставку
+                                    </h4>
+                                    <a class="offer__subtitle" href="">Шаг 2 из 3</a>
+                                    <div class="modal-offer-2__inputs">
+                                            <input placeholder="Email*"  type="text">
+                                             <input placeholder="Номер телефона*" type="text">
+                                    </div>
+                                    <h6 class="modal-offer-2__subtitle">
+                                        Опции доставки
+                                    </h6>
+                                    <div class="options">
+                                            <div class="option">
+                                                <div class="option__content">
+                                                    <img src="img/option-1.svg" alt="">
+                                                    <li class="option__text">
+                                                        Обычная доставка
+                                                    </li>
+                                                </div>
+                                                <input type="radio">    
+                                            </div>
+                                            <div class="option">
+                                                <div class="option__content">
+                                                    <img src="img/option-1.svg" alt="">
+                                                    <li class="option__text">
+                                                        Тяжелый груз (более 10кг)                                                    
+                                                    </li>
+                                                </div>
+                                                <input type="radio">                        
+                                                    </div>
+                                            <div class="option">
+                                                <div class="option__content">
+                                                    <img src="img/option-1.svg" alt="">
+                                                    <li class="option__text">
+                                                        Воздушная доставка                                         
+                                                     </li>
+                                                </div>
+                                                <input type="radio">                                        
+                                                </div>
+                                    </div>
+                                    <button class="modal-offer-2__btn">
+                                        Далее
+                                    </button>
+                              </div>
+                          </div>
+                         <!-----modal=======order======2===end-->
+
+         </header>
+    </div>
+    <!--header---end-->
+    <!--intro--start-->
+    
+        <div class="tab">
+          <span   class="tab__letter">О</span> 
+            <span  class="tab__letter" >т</span> 
+            <span  class="tab__letter">з</span>
+            <span  class="tab__letter"> ы</span>
+            <span  class="tab__letter"> в</span>
+           <span  class="tab__letter">ы</span>
+           <div class="tab__img">
+                <img src="img/Frame.svg" alt="">
+           </div>
+          
+        </div>
+        <div class="tab__content">
+            <h4 class="tab__title">
+             Поделитесь вашими впечатлениями от RoboExpress
+            </h4>
+            <ul class="tab__smiles">
+                <li class="tab__link">
+                     <a class="tab__smile" href="#">
+                             <img src="img/Pouting face.svg" alt="">
+                     </a>
+                     Ужасно
+                </li>
+                <li class="tab__link">
+                 <a class="tab__smile" href="#">
+                     <img src="img/Frowning face.svg" alt="">
+                 </a>
+                 Плохо
+                </li>
+                <li class="tab__link">
+                 <a class="tab__smile" href="#">
+                     <img src="img/Neutral face.svg" alt="">
+                 </a>
+                 Так себе
+                </li>
+                <li class="tab__link">
+                 <a class="tab__smile" href="#">
+                     <img src="img/Upside-down face.svg" alt="">
+                 </a>
+                 Хорошо
+                </li>
+                <li class="tab__link">
+                 <a class="tab__smile" href="#">
+                     <img src="img/Grinning face with smiling eyes.svg" alt="">
+                 </a>
+                 Отлично
+                </li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <div class="intro">
+                    <div class="intro__content">
+                            <h1 class="intro__title">
+                                Первая в мире полностью <br> автоматизированная <br> система доставки
+                            </h1>
+                            <div class="intro__text">
+                                Впервые в истории весь путь от обработки заказа до его  <br> получения клиентом проходит без единого участия человека!
+                            </div>
+                            <div class="intro__subtitle">
+                                Будущее уже наступило.
+                            </div>
+                            <button class="intro__btn">
+                                Отследить заказ
+                            </button>
+                    </div>
+                    <div class="intro__img">
+                        <img src="img/Cityscape Sunset Vector 2.png" alt="">
+                    </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    <!--intro--end-->
+    <script src="js/modal.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

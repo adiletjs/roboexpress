@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type:none;
+    font-family: Roboto;
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+}
+button :hover{
+    opacity: 50%;
+}
+.wrapper{
+    max-width: 1300px;
+    margin: auto;
+}
+/*----------------CAMMON---STYLES-------END--------*/
+/*------------------header---------------end------------------------------*/
+.header{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+.header__nav{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 1.5%;
+}
+.header__list{
+    display: flex;
+}
+.header__list_item{
+    padding: 0 20px;
+}
+.header__list_link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 175.78%;
+    color: #000000;
+}
+.header__btns{
+    margin-top: -5px;
+}
+#sign-in{
+    width: 181px;
+    height: 40px;
+    border: 5px solid #FFC700;
+    border-radius: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 175.78%;
+    text-align: center;
+    color:#FFC700;
+    background: transparent;
+}
+#offer-btn{
+    width: 181px;
+    height: 40px;
+    background: #FFC700;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+    border-radius: 12px;
+    position: absolute;
+    margin-left: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 175.78%;
+
+    text-align: center;
+    color: #000000;
+}
+#sign-in:hover{
+    border: 5px solid #000000;
+    color: #000;
+}
+#offer-btn:hover{
+    opacity: 50%;
+}
+.header__list_link:hover{
+    color: #FFC700;
+}
+.dropdown__menu{
+    width: 172px;
+    height: 244px;
+    position: fixed;
+    top:  12%;
+    left:  40%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px
+}
+.dropdown__menu_item{
+    padding: 8px 5px ;
+   
+}
+.dropdonw__menu_link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #000000;
+}
+/*------------------header---------------end------------------------------*/
+/*--------------------------------intro---content-----start---------------*/
+.tab{
+    width: 68px;
+    height: 211px;
+    background: #FFC700;
+    border-radius: 15px 0px 0px 15px;
+    position: absolute;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-top: 20%;
+    text-align: center;
+    cursor: pointer;    
+}
+.tab__letter{
+    display: block;
+    position: relative;
+    top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 130.8%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.tab__img img{
+    position: relative;
+    top: 25px;
+}
+.tab__content{
+    margin-top: 20%;
+    width: 369px;
+    height: 211px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+.active{
+    transform: translateX(18%);
+
+}
+.tab__title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130.8%;
+    text-align: center;
+    color: #000000;
+}
+.tab__smiles{
+    display: flex;
+    margin-top: 15%;
+}
+.tab__link{
+    padding: 0 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130.8%;
+    text-align: center;
+    color: #000000;
+}
+.intro{
+    display: flex;
+}
+.intro__content{
+        flex: 0 0 50%;
+        margin-left: 5%;
+        margin-top: 10%;
+} 
+.intro__title{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130.8%;
+    color: #000000;
+}
+.intro__text{
+    margin-top: 2%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #000000;
+}
+.intro__subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #000000;
+}
+.intro__btn{
+    width: 350px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 175.78%;
+    text-align: center;
+    color: #000000;
+    margin-top: 8%;
+    background: #FFC700;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+    border-radius: 12px;
+}
+.intro__img img{
+    border-radius: 50% 0 0 0;
+    max-height:70% ;
+    margin-top: 5%;
+}
+.intro__btn:hover{
+  opacity: 50%;
+}
