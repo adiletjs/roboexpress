@@ -11,8 +11,10 @@
 </head>
 <body>
     <!--header---start-->
-    <div class="wrapper">
+ 
          <header class="header">
+             <div class="wrapper">
+            <div class="header-wrapper">
              <div class="header__logo">
                  <img src="img/logo.svg" alt="">
              </div>
@@ -45,6 +47,9 @@
                         </button>
                 </div>
              </nav>
+             </div>
+            </div>
+
              <!--modal--window-start-->
              <div class="modal-wrapper hide">
                  <div class="modal hide" id="offer">
@@ -82,7 +87,7 @@
                                               Шаг 1 из 3
                                          </a>
                                         <div class="inputs">
-                                                <input  class="modal-offer__input"  placeholder="ID Товара*" id="input-id" type="text"> <a class="input__link" href="">Где взять ID?</a>
+                                                <input  class="modal-offer__input"  placeholder="ID Товара*" id="input-id" type="text"> <a class="input__link" href="#">Где взять ID?</a>
                                                 <input  class="modal-offer__input" placeholder="Фамилия*" type="text">
                                                 <input class="modal-offer__input"  placeholder="Имя*"  type="text">
                                                 <input class="modal-offer__input"  placeholder="Отчество*"  type="text">
@@ -119,7 +124,7 @@
                                                         Обычная доставка
                                                     </li>
                                                 </div>
-                                                <input type="radio">    
+                                                <input name="check" type="radio">    
                                             </div>
                                             <div class="option">
                                                 <div class="option__content">
@@ -128,7 +133,7 @@
                                                         Тяжелый груз (более 10кг)                                                    
                                                     </li>
                                                 </div>
-                                                <input type="radio">                        
+                                                <input name="check" type="radio">                        
                                                     </div>
                                             <div class="option">
                                                 <div class="option__content">
@@ -137,7 +142,7 @@
                                                         Воздушная доставка                                         
                                                      </li>
                                                 </div>
-                                                <input type="radio">                                        
+                                                <input name="check" type="radio">                                        
                                                 </div>
                                     </div>
                                     <button class="modal-offer-2__btn">
@@ -146,9 +151,67 @@
                               </div>
                           </div>
                          <!-----modal=======order======2===end-->
+                          <!--modal--offer-----------3------start---->
+                                <div class="modal-wrapper hide">
+                                    <div class="modal-offer-3 hide">
+                                            <h4 class="modal-offer-3__title">
+                                                Заказать доставку
+                                            </h4>
+                                            <li  class="modal-offer-3__subtitle">
+                                                Шаг 3 из 3
+                                            </li>
+                                            <div class="inputs-1">
+                                                <input placeholder="введите время доставки" type="text">
+                                                <input placeholder="введите Город  доставки" type="text">
+                                            </div>
+                                            <div class="input-2">
+                                                <input placeholder="введите район доставки " type="text">
+                                            </div>
+                                            <div class="inputs-3">
+                                                <div class="inputs-3__input">
+                                                    <li class="input_title">
+                                                        Квартира
+                                                    </li>
+                                                    <input placeholder="номер квартиры" type="text">
+                                                </div>
+                                                <div class="inputs-3__input">
+                                                    <li class="input_title">
+                                                        Подъезд
+                                                    </li>
+                                                    <input placeholder="подъезд" type="text">
+                                                </div>
+                                                <div class="inputs-3__input">
+                                                    <li class="input_title">
+                                                        Домофон
+                                                    </li>
+                                                    <input placeholder="домофон" type="text">
+                                                </div>
+                                                
+                                            </div>
+                                            <button class="modal-offer-3__btn">
+                                                Готово
+                                            </button>
+                                        </div>
+                                </div>
+                          <!--modal--offer-----------3------end---->
+                        <!-------modal--id------------------start-------------------->
+                                <div class="modal-wrapper hide">
+                                    <div class="modal-id hide">
+                                        <h4 class="modal-id__title">
+                                            ID Товара
+                                        </h4>
+                                        <div class="modal-id__content">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate metus non lacinia venenatis. Donec at placerat leo. Fusce varius mi at sem bibendum, nec consequat leo suscipit. Duis finibus  orci lectus, eget egestas elit dignissim sed. Nunc dapibus lectus nec est ullamcorper lacinia. Proin eget mauris eros. Nunc facilisis pretium odio quis molestie. Nunc placerat, nunc auctor consectetur aliquam, est purus mollis urna, ac bibendum magna enim id ex. Nunc rhoncus nisi non finibus finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                        </div>
+                                        <button class="modal-id__btn">
+                                            назад
+                                        </button>
+                                    </div>
+                                </div>
+                        <!-------modal--id----------------------end---------------->
 
          </header>
-    </div>
+   
     <!--header---end-->
     <!--intro--start-->
     
@@ -222,14 +285,104 @@
                     </div>
             </div>
         </div>
-
-
-
-
-
-
-
-    <!--intro--end-->
+<!--intro--end-->
+<div class="wrapper">
+    <section class="section_2">
+        <h2 class="section_2__title">
+            Как это работает?
+        </h2>
+        <div class="section__content">
+            <div class="section_item">
+                <div class="section__img">
+                    <img src="img/Icon.svg" alt="">
+                </div>
+                <h6 class="section__subtitle">  Вы делаете заказ </h6>
+                <p class="setion__text">
+                    Можно использовать  наш сайт, или сайты и приложения наших партнеров
+                </p>
+            </div>
+            <div class="section_item">
+                <div class="section__img">
+                    <img src="img/Icon (1).svg" alt="">
+                </div>
+                <h6 class="section__subtitle">Сборка заказа   </h6>
+                <p class="setion__text">
+                    Наш робот-погрузчик немедленно едет к ячейкам на складе, где находятся ваши товары
+                </p>
+            </div>
+            <div class="section_item">
+                <div class="section__img">
+                    <img src="img/Icon (2).svg" alt="">
+                </div>
+                <h6 class="section__subtitle">  Погрузка заказа </h6>
+                <p class="setion__text">
+                    После того, как заказ собран вместе, он отправляется в зону погрузки, где его упаковывает робот-упаковщик                </p>
+            </div>
+            <div class="section_item">
+                <div class="section__img">
+                    <img src="img/Icon (3).svg" alt="">
+                </div>
+                <h6 class="section__subtitle"> Доставка  </h6>
+                <p class="setion__text">
+                    Заказ собран и упакован. Ждите робота-курьера у вашего дома в течение получаса!
+                </p>
+            </div>
+        </div>
+    </section>
+</div>        
+    <div class="slider">
+        <h3 class="slider__title">
+            Всего 30 минут <br> и заказ у вас!
+        </h3>
+       
+        <div class="wrapper">
+         <div class="slider-wrapper">
+            <div class="slider__btns">
+                <div class="left-btn">
+                       <img src="img/slider-btn-left.svg" alt="">
+                </div>
+                <div class="right-btn">
+                    <img src="img/slider-btn-right.svg" alt="">
+                </div>
+           </div>
+           <div class="slider-container">
+            <div class="slider__item  show">
+                <img src="img/slider-0.png" alt="">
+            </div>
+            <div class="slider__item ">
+                <img src="img/slider-1.png" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="img/slider-2.png" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="img/slider-3.png" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="img/slider-4.png" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="img/slider-5.png" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="img/slider-6.png" alt="">
+            </div>
+           </div>
+         
+        </div>
+        <div class="dots-wrapper">
+            <div class="dot this "></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+   
+    </div>
+    <script src="js/slider.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/main.js"></script>
 </body>

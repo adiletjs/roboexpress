@@ -3,7 +3,8 @@ const tabBtn = document.querySelector('.tab')
 const  tabContent = document.querySelector('.tab__content')
 const  tab = document.querySelector('.tab')
 const aboutUsBtn = document.querySelector('#about-us')
-aboutUsBtn.onclick =  function(){
+aboutUsBtn.addEventListener('click',showMenu) 
+ function showMenu(){
     aboutUsBtn.insertAdjacentHTML('afterend',     `
     <div class="modal-wrapper">
                     <nav class="dropdown__menu ">

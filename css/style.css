@@ -1,5 +1,4 @@
 *{
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -25,9 +24,17 @@ button :hover{
 /*----------------CAMMON---STYLES-------END--------*/
 /*------------------header---------------end------------------------------*/
 .header{
+    position: fixed;
+    width: 100%;
+    background: #FFffFF;
+    z-index: 1000;
+    top: 0;
+}
+.header-wrapper{
     display: flex;
     margin-top: 15px;
-    margin-left: 5%;
+    margin-left: 3%;
+    width: 100%;
 }
 .header__nav{
     display: flex;
@@ -153,6 +160,7 @@ button :hover{
     position: absolute;
     transform: translateX(-100%);
     transition: 0.5s;
+    z-index: 100;
 }
 .active{
     transform: translateX(18%);
@@ -183,6 +191,8 @@ button :hover{
 }
 .intro{
     display: flex;
+    z-index: 0;
+    margin-top: 5%;
 }
 .intro__content{
         flex: 0 0 50%;
@@ -232,9 +242,129 @@ button :hover{
 }
 .intro__img img{
     border-radius: 50% 0 0 0;
-    max-height:70% ;
+    max-height:60% ;
+    min-width: 50%;
     margin-top: 5%;
 }
 .intro__btn:hover{
   opacity: 50%;
+}
+/*==============intro--end====================================*/
+/*=================================section-2=================start=======*/
+.section_2{
+    margin-top: -15%;
+}
+.section_2__title{
+    text-align: center;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130.8%;
+    color: #000000;
+}
+.section__content{
+    display:flex;
+    margin-top: 5%;
+}
+.section_item{
+    width: 191px;
+    margin: 0 5%;
+    padding: 5px 15px;
+}
+.section__subtitle{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 130.8%;
+    text-align: center;
+    color: #000000;
+}
+.setion__text{
+    margin-top: 2%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130.8%;
+    text-align: center;
+    color: #000000;
+}
+
+/*=================================section-2=================end=======*/
+.slider{
+    margin-top: 5%;
+}
+
+.slider__title{
+    text-align: center;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130.8%;
+    color: #000000;
+}
+.slider__item img{
+    width: 1200px;
+}   
+.slider-wrapper{
+
+    margin-top: 60px;
+    position: relative;
+   margin-left: 5% ;
+}
+.slider__btns{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__btns div{
+    cursor:pointer;
+    width: 73px;
+    height:550px;
+    background: rgba(0,0,0,.5);
+}
+.left-btn img {
+    position: relative;
+    top :45%;
+}
+.right-btn img{
+    position: relative;
+    top :45%;
+    margin-left: 35px;
+}
+
+.slider-container{
+    display:flex;
+    width: 1200px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.slider__item{
+    display:none;
+}
+.show{
+    display: block;
+}
+.dots-wrapper{
+    margin-top: 15px;
+    margin-left: 46%;
+    display: flex;
+}
+.dot{
+    margin:0 15px;
+    width: 15px;
+    height: 15px;
+    background: #BEBEBE; 
+    border-radius:50%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.this { 
+    background: #FFC700;
 }

@@ -217,3 +217,151 @@ input{
     height: 40px;
     margin-top: 10%;
 }
+/*==================modal=offer=3================start====*/
+.modal-offer-3{
+    width: 730px;
+    height: 592px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    text-align: center;
+    padding: 3% 2%;
+}
+.modal-offer-3__title{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130.8%;
+    color: #000000;
+}
+.modal-offer-3__subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #FFC700;
+    margin-top: 15px;
+}
+.inputs-1{
+    margin-top: 5%;
+}
+.inputs-1 input {
+    background: #F3F3F3;
+    border-radius: 10px;
+    width:290px ;
+    height:63px ;
+    margin: 0 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #BEBEBE;
+}
+.input-2 {
+    margin-top: 2%;
+}
+.input-2 input {
+    width:608px ;
+    height: 63px;
+    background: #F3F3F3;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #BEBEBE;
+}
+.inputs-3{
+    display: flex;
+    margin: 5% 0;
+    justify-content: space-around;
+}
+.inputs-3__input{
+    display: flex;
+    margin: 0 5px;
+}
+.inputs-3__input input{
+    width:95px ;
+    height: 63px;
+    background: #F3F3F3;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #BEBEBE;
+}
+.input_title{
+    position: relative;
+    top: 32px;
+    right: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 130.8%;
+     color: #000000;
+}
+.modal-offer-3__btn{
+    width: 181px;
+    height: 40px;
+    background: #FFC700;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+    border-radius: 12px;
+    margin-top: 8%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;  
+    font-size: 18px;
+    line-height: 175.78%;
+    text-align: center;
+    color: #000000;
+}
+.modal-offer-3__btn:hover{
+    opacity: 50%;
+}
+/*================modal============offer-3========end=*/
+.modal-id{
+    width: 730px;
+    height: 369px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 3% 2%;
+    text-align: center;
+}
+.modal-id__title{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 130.8%;
+    color: #000000;
+    text-align: center;
+}
+.modal-id__content{
+   width: 666px;
+   margin-top: 5%;
+}
+.modal-id__btn{
+    margin: 15% 0 ;
+    width: 181px;
+    height: 40px;
+    background: #FFC700;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+    border-radius: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 175.78%;
+    text-align: center;
+    color: #000000;
+}
